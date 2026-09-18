@@ -1,0 +1,36 @@
+name: Documentation
+description: Something in the documentation is wrong, missing or misleading.
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentation that disagrees with the code is a defect, and which of the
+        two is wrong is a fair question to raise here.
+
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The URL, file path or specification section.
+      placeholder: https://commitbrief.com/docs/1.x/configuration/
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: >-
+        Quote the passage and say what is inaccurate, out of date, or missing.
+        If the code does something different, say what it actually does.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording
+      description: Optional, and very welcome.
+    validations:
+      required: false

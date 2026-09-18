@@ -1,0 +1,91 @@
+name: Bug report
+description: Something behaves differently from what is documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file this. An issue that can be reproduced
+        is an issue that gets fixed — the fields below are the ones that usually
+        decide which it is.
+
+        **Do not report a security vulnerability here.** Use the
+        [security policy](https://github.com/tignex/.github/blob/main/SECURITY.md)
+        instead.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what the project did about it.
+      placeholder: I ran X against Y and it returned Z.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+      description: If the documentation says otherwise, link to the part that does.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        The smallest sequence that shows the problem. A minimal repository,
+        configuration snippet or payload beats a description of one.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Error output or logs
+      description: >-
+        Paste it verbatim rather than paraphrased. **Redact secrets** — tokens,
+        connection strings, customer data — before you do.
+      render: shell
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The released version or the commit you are running.
+      placeholder: v1.16.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: >-
+        Operating system, runtime version, and anything the project sits in
+        front of or talks to — the database, broker or model provider involved.
+      placeholder: |
+        OS: macOS 15.3 (arm64)
+        Runtime: Go 1.25.1
+        Provider / broker / database: Ollama 0.5.7, llama3.1:8b
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this is not a duplicate.
+          required: true
+        - label: I am running a supported version, or I checked that this still happens on the latest one.
+          required: true
+        - label: I removed secrets and private data from everything I pasted.
+          required: true

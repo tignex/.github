@@ -1,0 +1,60 @@
+name: Feature request
+description: Propose a change in behaviour or a new capability.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Proposals are welcome, and so is the conversation before the code. Every
+        project here documents what it is deliberately **not** — a proposal that
+        crosses one of those lines is not a bad idea, it is a different product,
+        and it is cheaper to find that out now.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: >-
+        What you were trying to do, and where the project got in the way.
+        Describe the situation rather than the feature you have in mind — the
+        best solution is often not the one either of us thought of first.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you are proposing
+      description: How it would behave. A concrete example of the command, call or payload helps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you tried or considered
+      description: Existing options, workarounds, and why they fall short.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: breaking
+    attributes:
+      label: Would this change existing behaviour?
+      options:
+        - "No — purely additive"
+        - "Yes — changes a default"
+        - "Yes — breaks a published format or interface"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and discussions for this proposal.
+          required: true
+        - label: I read what this project states it deliberately does not do.
+          required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/tignex/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Report it privately — here is how.
+  - name: Question or usage help
+    url: https://github.com/tignex/.github/blob/main/SUPPORT.md
+    about: Where to ask, and what to read first.
+  - name: Documentation
+    url: https://tignex.com/projects/
+    about: Every project keeps its documentation on its own site.
