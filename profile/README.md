@@ -100,11 +100,11 @@ apply everywhere a project does not publish its own.
 ## Contact
 
 Questions, corrections and contributions are all welcome — write to
-[info@muhammetsafak.com.tr](mailto:info@muhammetsafak.com.tr), or open an issue
+[info@muhammetsafak.com](mailto:info@muhammetsafak.com), or open an issue
 on the project you are reading about.
 
 ---
 
 <p align="center">
-  <sub><a href="https://tignex.com">Tignex</a> was founded by <a href="https://www.muhammetsafak.com.tr/en/">Muhammet Şafak</a>.</sub>
+  <sub><a href="https://tignex.com">Tignex</a> was founded by <a href="https://muhammetsafak.com/">Muhammet Şafak</a>.</sub>
 </p>

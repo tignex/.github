@@ -43,4 +43,4 @@ nothing here depends on someone else staying in business.
 ## Contact
 
 For anything that does not fit an issue tracker —
-[info@muhammetsafak.com.tr](mailto:info@muhammetsafak.com.tr).
+[info@muhammetsafak.com](mailto:info@muhammetsafak.com).

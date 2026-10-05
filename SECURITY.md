@@ -10,7 +10,7 @@ projects. A repository that ships its own `SECURITY.md` overrides it.
 1. **GitHub private vulnerability reporting** — on the affected repository, open
    the *Security* tab and choose *Report a vulnerability*. This is preferred: it
    keeps the report, the fix and the advisory in one place.
-2. **Email** — [info@muhammetsafak.com.tr](mailto:info@muhammetsafak.com.tr)
+2. **Email** — [info@muhammetsafak.com](mailto:info@muhammetsafak.com)
    with `SECURITY` in the subject line.
 
 Please include, as far as you can:

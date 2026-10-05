@@ -63,7 +63,7 @@ public spaces.
 
 Instances of abusive, harassing, or otherwise unacceptable behaviour may be
 reported to the maintainers at
-[info@muhammetsafak.com.tr](mailto:info@muhammetsafak.com.tr). All complaints
+[info@muhammetsafak.com](mailto:info@muhammetsafak.com). All complaints
 will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
