@@ -31,7 +31,7 @@ connection strings, customer data — before pasting anything.
 ## Security
 
 Do not open a public issue for a vulnerability. See the
-[security policy](SECURITY.md).
+[security policy](https://github.com/tignex/.github/blob/main/SECURITY.md).
 
 ## What is not supported
 

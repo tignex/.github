@@ -64,11 +64,11 @@ the specification does not describe is a bug in the SDK.
 ## Licensing of contributions
 
 Each project carries its own licence — `GPL-3.0-or-later` for CommitBrief, `MIT`
-for BabelQueue, `AGPL-3.0` for QueryProxy, and whatever a given repository's
+for BabelQueue, `AGPL-3.0-only` for QueryProxy, and whatever a given repository's
 `LICENSE` file states elsewhere. Opening a pull request means your contribution
 is offered under that repository's licence.
 
 ## Conduct
 
-The [Code of Conduct](CODE_OF_CONDUCT.md) applies to every space the
+The [Code of Conduct](https://github.com/tignex/.github/blob/main/CODE_OF_CONDUCT.md) applies to every space the
 organization runs — issues, pull requests, discussions and email.

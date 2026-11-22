@@ -43,7 +43,7 @@ CLI that reviews your staged changes, a commit range or a whole GitHub pull
 request — before your colleagues do. No server, no account, no telemetry; ten
 model providers, including Ollama for reviews that never leave your hardware.
 
-`Go` · `GPL-3.0` · [Docs](https://commitbrief.com/docs/)
+`Go` · `GPL-3.0-or-later` · [Docs](https://commitbrief.com/docs/)
 
 ### [BabelQueue](https://github.com/BabelQueue) · [babelqueue.com](https://babelqueue.com)
 
@@ -62,7 +62,7 @@ AST parser inspects it, a DBA approves from the web UI or straight from Slack or
 Teams, and the result comes back masked and audited. Runs on your own
 infrastructure in front of PostgreSQL, MySQL, MariaDB, SQL Server or SQLite.
 
-`PHP` · `AGPL-3.0` · [Docs](https://queryproxy.com/docs/)
+`PHP` · `AGPL-3.0-only` · [Docs](https://queryproxy.com/docs/)
 
 ## How we engineer
 
